@@ -19,49 +19,40 @@ export default class NavBar extends Component {
 
     return (
       <div className="navbar">
+        <div className="navbar-bg">
           <nav className="navlinks">
-            <Menu stackable className="navigation-menu">
+            <Menu stackable>
               <Menu.Item>
                 <img src="https://react.semantic-ui.com/logo.png" />
               </Menu.Item>
 
               <Menu.Item
-                className="navlink navlink-margin-left"
+                className="navlink-margin-left"
                 as={NavLink}
                 exact
                 to="/"
-                name="Health"
-                active={activeItem === "Health"}
+                name="Home"
+                active={activeItem === "Home"}
                 onClick={this.handleItemClick}
               />
               <Menu.Item
-                className="navlink"
                 as={NavLink}
                 to="/fuel-savings"
-                name="Details"
-                active={activeItem === "Details"}
+                name="Fuel"
+                active={activeItem === "Fuel"}
                 onClick={this.handleItemClick}
               />
               <Menu.Item
-                className="navlink navlink-margin-right"
+                className="navlink-margin-right"
                 as={NavLink}
                 to="/about"
                 name="About"
                 active={activeItem === "About"}
                 onClick={this.handleItemClick}
               />
-              <Menu.Item
-                className="navlink navlink-company-name"
-                as={"h2"}
-                to="/"
-                name="Company Name"
-                onClick={this.handleItemClick}
-                borderless="true"
-              />
 
               <Menu.Menu position="right">
                 <Menu.Item
-                  className="navlink"
                   name="logout"
                   active={activeItem === "logout"}
                   onClick={this.handleItemClick}
@@ -69,6 +60,7 @@ export default class NavBar extends Component {
               </Menu.Menu>
             </Menu>
           </nav>
+        </div>
       </div>
     );
   }

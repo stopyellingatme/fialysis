@@ -16,8 +16,8 @@ class App extends React.Component {
     return (
       <div>
         <div>
-          <NavBar />
           <SideNav />
+          <NavBar />
         </div>
         <Routes />
       </div>

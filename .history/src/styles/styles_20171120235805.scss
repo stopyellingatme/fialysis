@@ -86,15 +86,16 @@ td.fuel-savings-label { width: 175px; }
  */
 .navigation-menu {
   min-width: 99% !important;
-  background-color: rgb(52, 64, 70) !important;
+  background-color: rgb(50, 65, 72) !important;
   border-radius: .48571429rem !important;
-  .active.item {
-    border-bottom: 2px solid;
-    border-color: rgb(223, 193, 41) !important;
-  }
 }
 .navlink {
   color: white !important;
+}
+.ui.menu .active.item {
+  // background-color: rgb(144, 154, 76) !important;
+  border-bottom: 2px solid;
+  border-color: #FFDE25 !important;
 }
 // .navbar-bg {
 //   background-color: transparent;
@@ -127,10 +128,6 @@ td.fuel-savings-label { width: 175px; }
  * SideNav
  */
 .sidenav {
-  .item {
-    color: white !important;
-  }
-  background-color: rgb(52, 64, 70) !important;
   margin: 5% 0 0 0;
 }
 .logo {
@@ -145,8 +142,6 @@ td.fuel-savings-label { width: 175px; }
  * HomePage
  */
 .kit-description-card {
-  color: white;
-  background-color: rgb(52, 64, 70) !important;
   min-width: 110% !important;
   margin-top: 2% !important;
   margin-left: 2% !important;

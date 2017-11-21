@@ -14,9 +14,9 @@ class SideNav extends Component {
     return (
       <div className="sidenav col pull-left">
         <div className="sidenav">
-          <Menu vertical className="sidenav">
+          <Menu vertical>
             <Menu.Item className="logo-area">
-              <Icon className="logo" name="code" />
+            <Icon className="logo" name="code" />
             </Menu.Item>
             <Menu.Item>
               <Input placeholder="Search..." />

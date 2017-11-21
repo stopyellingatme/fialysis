@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 import Routes from "./Routes";
 import NavBar from "./NavBar";
-// import PageHeader from "./PageHeader";
+import PageHeader from "./PageHeader";
 import SideNav from './SideNav';
 
 // This is a class-based component because the current
@@ -16,8 +16,9 @@ class App extends React.Component {
     return (
       <div>
         <div>
-          <NavBar />
           <SideNav />
+          <PageHeader />
+          <NavBar />
         </div>
         <Routes />
       </div>

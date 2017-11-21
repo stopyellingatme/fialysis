@@ -52,7 +52,7 @@ export default class NavBar extends Component {
               />
               <Menu.Item
                 className="navlink navlink-company-name"
-                as={"h2"}
+                as={h2}
                 to="/"
                 name="Company Name"
                 onClick={this.handleItemClick}

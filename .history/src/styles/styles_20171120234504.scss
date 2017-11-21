@@ -8,7 +8,7 @@ body {
   font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: 1.4em;
   color: #4d4d4d;
-  background-color: rgb(27, 35, 48) !important;
+  background-color: rgb(29, 35, 45) !important;
   min-width: 230px;
   max-width: 100%;
   margin: 0 auto;
@@ -39,7 +39,7 @@ input.small { width: 46px; }
 td.fuel-savings-label { width: 175px; }
 
 .ui.secondary.pointing.menu {
-  border-bottom: 2px solid rgba(26, 35, 43, 0) !important;
+  border-bottom: 2px solid rgba(34, 36, 38, 0) !important;
 }
 
 
@@ -86,15 +86,14 @@ td.fuel-savings-label { width: 175px; }
  */
 .navigation-menu {
   min-width: 99% !important;
-  background-color: rgb(52, 64, 70) !important;
+  background-color: rgb(61, 76, 99) !important;
   border-radius: .48571429rem !important;
-  .active.item {
-    border-bottom: 2px solid;
-    border-color: rgb(223, 193, 41) !important;
-  }
 }
 .navlink {
   color: white !important;
+}
+.ui.menu .active.item {
+  background-color: rgb(78, 97, 126) !important;
 }
 // .navbar-bg {
 //   background-color: transparent;
@@ -127,10 +126,6 @@ td.fuel-savings-label { width: 175px; }
  * SideNav
  */
 .sidenav {
-  .item {
-    color: white !important;
-  }
-  background-color: rgb(52, 64, 70) !important;
   margin: 5% 0 0 0;
 }
 .logo {
@@ -145,8 +140,6 @@ td.fuel-savings-label { width: 175px; }
  * HomePage
  */
 .kit-description-card {
-  color: white;
-  background-color: rgb(52, 64, 70) !important;
   min-width: 110% !important;
   margin-top: 2% !important;
   margin-left: 2% !important;
