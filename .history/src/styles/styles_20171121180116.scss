@@ -1,0 +1,162 @@
+/* Variables */
+$vin-blue: #5bb7db;
+$vin-green: #60b044;
+$vin-red: #ff0000;
+
+/* Styles */
+body {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.4em;
+  color: #4d4d4d;
+  background-color: rgb(27, 35, 48) !important;
+  min-width: 230px;
+  max-width: 100%;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  // font-smoothing: antialiased;
+  font-weight: 300;
+}
+
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+
+td {
+	padding: 12px;
+}
+
+h2 {
+	color: $vin-blue;
+}
+
+.savings { color: $vin-green; }
+.loss { color: $vin-red; }
+input.small { width: 46px; }
+td.fuel-savings-label { width: 175px; }
+
+.ui.secondary.pointing.menu {
+  border-bottom: 2px solid rgba(26, 35, 43, 0) !important;
+}
+
+
+/**
+ * Header
+ */
+// header {
+//   display: flex;
+// }
+// .header-row {
+//   min-height: 130px;
+//   background-color: rgb(207, 233, 255);
+// }
+// .header-left {
+//   width: 25%;
+//   margin: 33px 0 0 4% !important;
+// }
+// .header-right {
+//   width: 25%;
+//   margin-top: -30px !important;
+//   margin-right: -7% !important;
+// }
+// .header-center {
+//   width: 50%;
+//   text-align: center;
+//   padding-top: 39px;
+//   margin-left: 20% !important;
+// }
+// .header-item {
+//   margin: auto;
+//   vertical-align: middle;
+// }
+
+/**
+ * Main Content
+ */
+.content {
+  max-width: 77%;
+  margin: 0 auto;
+}
+
+/**
+ * NavBar
+ */
+.navigation-menu {
+  min-width: 99% !important;
+  background-color: rgb(52, 64, 70) !important;
+  border-radius: .48571429rem !important;
+  .active.item {
+    border-bottom: 2px solid;
+    border-color: rgb(223, 193, 41) !important;
+  }
+}
+.navlink {
+  color: white !important;
+}
+.setting-icon-navbar {
+  font-size: 20px;
+}
+// .navbar-bg {
+//   background-color: transparent;
+//   border-bottom: 0px solid rgba(34, 36, 38, 0.15);
+// }
+.navlinks {
+  display: flex;
+  justify-content: space-between;
+  min-width: 100%;
+  margin: 4px 10px -2px 10px;
+}
+.navlink-margin-left {
+  margin-left: 100px;
+}
+.navlink-margin-right {
+  margin-right: 10vw;
+}
+.navlink-company-name {
+  position: fixed !important;
+  max-width: 1000px;
+  max-height: 55px;
+  overflow-x: hidden;
+  margin: 0 0vw 0 30vw;
+  font-size: 17px;
+  font-weight: bold !important;
+}
+
+
+/**
+ * SideNav
+ */
+.sidenav {
+  .item {
+    color: white !important;
+  }
+  background-color: rgb(52, 64, 70) !important;
+  margin: 5% 0 0 0;
+}
+.logo {
+  font-size: 30px !important;
+  margin: 5% 41% 0 0 !important;
+}
+.logo-area {
+  margin-bottom: 20%;
+}
+
+/**
+ * HomePage
+ */
+.kit-description-card {
+  color: white;
+  background-color: rgb(52, 64, 70) !important;
+  border-color: transparent !important;
+  min-width: 110% !important;
+  margin-top: 2% !important;
+  margin-left: 2% !important;
+}
+
+.description-list {
+  font-size: 17px;
+  line-height: 25px;
+}
