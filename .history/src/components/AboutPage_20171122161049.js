@@ -87,7 +87,7 @@ class AboutPage extends React.Component {
   render() {
     return (
       <div className="content">
-        <Segment className="company-description-seg">
+        <Segment className="kit-description-card">
           {description}
         </Segment>
       </div>

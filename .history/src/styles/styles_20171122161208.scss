@@ -86,7 +86,6 @@ g text {
 .content {
   max-width: 77%;
   margin: 0 auto;
-  
 }
 
 /**
@@ -134,8 +133,6 @@ g text {
  * SideNav
  */
 .sidenav {
-  position: fixed;
-  z-index: 2000;
   .item {
     color: white !important;
   }
@@ -165,8 +162,8 @@ g text {
 }
 
 .description-list {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 25px;
 }
 
 /**

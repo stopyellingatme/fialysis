@@ -85,8 +85,8 @@ g text {
  */
 .content {
   max-width: 77%;
-  margin: 0 auto;
-  
+  margin: 0 0 0 5vw;;
+
 }
 
 /**
@@ -135,7 +135,6 @@ g text {
  */
 .sidenav {
   position: fixed;
-  z-index: 2000;
   .item {
     color: white !important;
   }

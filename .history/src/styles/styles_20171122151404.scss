@@ -86,7 +86,6 @@ g text {
 .content {
   max-width: 77%;
   margin: 0 auto;
-  
 }
 
 /**
@@ -134,8 +133,6 @@ g text {
  * SideNav
  */
 .sidenav {
-  position: fixed;
-  z-index: 2000;
   .item {
     color: white !important;
   }
@@ -156,7 +153,7 @@ g text {
  * HomePage
  */
 .kit-description-card {
-  color: black;
+  color: white;
   background-color: rgb(52, 64, 70) !important;
   box-shadow: 0px 0px 12px 0px #0a0a0a !important;
   min-width: 110% !important;
@@ -165,18 +162,6 @@ g text {
 }
 
 .description-list {
-  font-size: 14px;
-  line-height: 20px;
-}
-
-/**
- * About Page
- */
-.company-description-seg {
-  color: white;
-  background-color: rgb(52, 64, 70) !important;
-  box-shadow: 0px 0px 12px 0px #0a0a0a !important;
-  min-width: 110% !important;
-  margin-top: 9vh !important;
-  margin-left: 3% !important;
+  font-size: 17px;
+  line-height: 25px;
 }
